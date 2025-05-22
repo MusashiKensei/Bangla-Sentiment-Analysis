@@ -54,17 +54,21 @@ The system explores and compares the performance of:
 - **Confusion Matrix**
 - **Classification Report**
 
-| Model                            | Accuracy | F1-Score |
-|----------------------------------|----------|----------|
-| BiLSTM + Fine-tuned FastText     | 76.47%   | 75.59%   |
-| BiLSTM + Fine-tuned GloVe        | 74.94%   | 74.52%   |
-| Fine-tuned Multilingual BERT     | 74.11%   | 73.10%   |
-| Fine-tuned BanglaBERT            | 72.74%   | 70.57%   |
-| BiLSTM + FastText (Pretrained)   | 76.47%   | 75.59%   |
-| BiLSTM + GloVe (Pretrained)      | 69.58%   | 67.86%   |
-| Multilingual BERT (Vanilla)      | 69.43%   | 68.97%   |
-| BanglaBERT (Vanilla)             | 68.82%   | 67.27%   |
-
+| Model                                | Accuracy | Precision | Recall | F1 Score |
+|-------------------------------------|----------|-----------|--------|----------|
+| **Naive Bayes (TF-IDF)**            | 65.80%   | 64.92%    | 65.80% | 64.80%   |
+| **Logistic Regression (TF-IDF)**    | 68.67%   | 67.91%    | 68.67% | 67.91%   |
+| **Support Vector Machine (TF-IDF)** | 68.41%   | 67.60%    | 68.41% | 67.39%   |
+| **Random Forest (TF-IDF)**          | 67.56%   | 66.88%    | 67.56% | 66.78%   |
+| **Gradient Boosting (TF-IDF)**      | 68.85%   | 68.41%    | 68.85% | 68.34%   |
+| **BiLSTM + GloVe**                  | 69.58%   | 67.39%    | 69.58% | 67.86%   |
+| **BiLSTM + FastText**               | 68.46%   | 65.39%    | 68.46% | 65.43%   |
+| **Fine-tuned BiLSTM + GloVe**       | 75.99%   | 75.13%    | 75.99% | 75.38%   |
+| **Fine-tuned BiLSTM + FastText**    | 77.36%   | 76.57%    | 77.36% | 76.59%   |
+| **Multilingual BERT**               | 69.43%   | 68.61%    | 69.43% | 68.97%   |
+| **BanglaBERT**                      | 72.72%   | 72.78%    | 72.72% | 72.69%   |
+| **Fine-tuned Multilingual BERT**    | 72.44%   | 70.17%    | 72.44% | 70.17%   |
+| **Fine-tuned BanglaBERT**           | 73.60%   | 72.78%    | 73.60% | 72.69%   |
 
 ---
 
@@ -80,15 +84,13 @@ The system explores and compares the performance of:
 
 ---
 
-## Highlights
+## Key Contributions
 
-- Applied 8-fold cross-validation on BiLSTM models.
-
-- Performed domain-specific fine-tuning on GloVe and FastText embeddings.
-
-- Utilized transformer-based models to handle linguistic complexities and spelling variations in Bengali.
-
-- Included early stopping to avoid overfitting during training.
+- Web scraping and sentiment labeling of a large Bengali product review dataset
+- Text preprocessing tailored for Bengali (e.g., normalization, stopword removal)
+- Integration of domain-specific word embeddings (GloVe & FastText) fine-tuned on noisy review text
+- Performance comparison across 13 models including transformers and BiLSTM variants
+- Effective use of k-Fold Cross Validation and Early Stopping to mitigate overfitting
 
 # Thesis Report
 
