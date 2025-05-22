@@ -99,7 +99,7 @@ You can find the full thesis report from [Bengali sentiment analysis based on pr
 
 ## Acknowledgments
 
-- BRAC University CSE Department  
+- CSE Department, BRAC University  
 - Supervisor: Dewan Ziaul Karim (Lecturer, BRAC University)  
 - Research inspirations from [CSEBUET NLP](https://csebuetnlp.github.io/) and [Hugging Face](https://huggingface.co/)
 
