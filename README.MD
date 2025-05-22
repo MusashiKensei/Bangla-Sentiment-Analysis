@@ -3,9 +3,9 @@
 **Bangla-Sentiment-Analysis** is a deep learning-based project that performs sentiment classification on Bengali product reviews, categorizing them into **Positive**, **Negative**, or **Neutral** sentiments. This was developed as part of my undergraduate thesis at BRAC University.
 
 The system explores and compares the performance of:
-- Traditional Machine Learning Models (SVM, Random Forest, etc.)
-- Deep Learning Models with Word Embeddings (BiLSTM with GloVe & FastText)
-- Transformer-based Models (Multilingual BERT & BanglaBERT)
+- Traditional Machine Learning Models 
+- Deep Learning Models with Word Embeddings 
+- Transformer-based Models 
 
 ---
 
@@ -37,6 +37,11 @@ The system explores and compares the performance of:
 - Each review includes:
   - `clean_sentence`: The cleaned Bengali review text
   - `Sentiment`: Labeled as `Positive`, `Neutral`, or `Negative` based on the rating
+
+### Label Distribution:
+- Positive: 45.54%
+- Neutral: 20.60%
+- Negative: 33.86%
 
 ---
 
