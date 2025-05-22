@@ -93,9 +93,13 @@ The system explores and compares the performance of:
 - Performance comparison across 13 models including transformers and BiLSTM variants
 - Effective use of k-Fold Cross Validation and Early Stopping to mitigate overfitting
 
+---
+
 # Thesis Report
 
 You can find the full thesis report from [Bengali sentiment analysis based on product reviews: unveiling consumer voices](https://dspace.bracu.ac.bd/xmlui/handle/10361/25480)
+
+---
 
 ## Acknowledgments
 
