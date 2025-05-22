@@ -11,12 +11,13 @@ The system explores and compares the performance of:
 
 ## Models Implemented
 
-### Traditional ML Models
-- **TF-IDF + Multinomial Naive Bayes**
-- **TF-IDF + Logistic Regression**
-- **TF-IDF + Random Forest**
-- **TF-IDF + SVM**
-- **TF-IDF + Gradient Boosting**
+### Traditional Machine Learning Models:
+- Multinomial Naive Bayes (MNB)
+- Logistic Regression (LR)
+- Support Vector Machine (SVM)
+- Random Forest (RF)
+- Gradient Boosting Classifier (GBC)
+- Vectorization: **TF-IDF**
 
 ### Deep Learning Models
 - **BiLSTM + GloVe (300d)**
@@ -27,7 +28,7 @@ The system explores and compares the performance of:
 ### Transformer Models
 - **Multilingual BERT (bert-base-multilingual-cased)**
 - **Fine-tuned Multilingual BERT**
-- **BanglaBERT (csebuetnlp/banglabert)**
+- **BanglaBERT (csebuetnlp/banglabert)**s
 - **Fine-tuned BanglaBERT**
 
 ---
