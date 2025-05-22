@@ -9,22 +9,22 @@ The system explores and compares the performance of:
 
 ---
 
-## 🧠 Models Implemented
+## Models Implemented
 
-### ✅ Traditional ML Models
+### Traditional ML Models
 - **TF-IDF + Multinomial Naive Bayes**
 - **TF-IDF + Logistic Regression**
 - **TF-IDF + Random Forest**
 - **TF-IDF + SVM**
 - **TF-IDF + Gradient Boosting**
 
-### ✅ Deep Learning Models
+### Deep Learning Models
 - **BiLSTM + GloVe (300d)**
 - **BiLSTM + FastText (cc.bn.300.bin)**
 - **BiLSTM + Fine-tuned GloVe**
 - **BiLSTM + Fine-tuned FastText**
 
-### ✅ Transformer Models
+### Transformer Models
 - **Multilingual BERT (bert-base-multilingual-cased)**
 - **Fine-tuned Multilingual BERT**
 - **BanglaBERT (csebuetnlp/banglabert)**
@@ -32,7 +32,7 @@ The system explores and compares the performance of:
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - Collected **34,800** Bengali product reviews via web scraping from [Daraz Bangladesh](https://www.daraz.com.bd/).
 - Each review includes:
@@ -41,7 +41,7 @@ The system explores and compares the performance of:
 
 ---
 
-## 🧪 Evaluation Metrics
+## Evaluation Metrics
 
 - **Accuracy**
 - **Precision**
@@ -64,7 +64,7 @@ The system explores and compares the performance of:
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 - **Python**
 - **PyTorch**, **Transformers (HuggingFace)**
@@ -76,5 +76,18 @@ The system explores and compares the performance of:
 
 ---
 
-## 🧾 File Structure
+## Highlights
+
+- Applied 8-fold cross-validation on BiLSTM models.
+
+- Performed domain-specific fine-tuning on GloVe and FastText embeddings.
+
+- Utilized transformer-based models to handle linguistic complexities and spelling variations in Bengali.
+
+- Included early stopping to avoid overfitting during training.
+
+# Thesis Report
+
+You can find the full thesis report from [Bengali sentiment analysis based on product reviews: unveiling consumer voices](https://dspace.bracu.ac.bd/xmlui/handle/10361/25480)
+
 
