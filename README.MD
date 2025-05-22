@@ -1,6 +1,6 @@
 # Bangla Sentiment Analysis
 
-**Bangla-Sentiment-Analysis** is a deep learning-based project that performs sentiment classification on Bengali product reviews, categorizing them into **Positive**, **Negative**, or **Neutral** sentiments. This was developed as part of my undergraduate thesis at BRAC University.
+**Bangla-Sentiment-Analysis** is a deep learning and traditional machine learning-based project that performs sentiment classification on Bengali product reviews, categorizing them into **Positive**, **Negative**, or **Neutral** sentiments. This was developed as part of my undergraduate thesis at BRAC University.
 
 The system explores and compares the performance of:
 - Traditional Machine Learning Models 
@@ -81,6 +81,7 @@ The system explores and compares the performance of:
 - **GloVe embeddings**
 - **Matplotlib**, **Seaborn**
 - **Pandas**, **NumPy**
+- **sklearn**, **imblearn**
 
 ---
 
