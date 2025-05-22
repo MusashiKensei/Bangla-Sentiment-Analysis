@@ -95,11 +95,11 @@ The system explores and compares the performance of:
 
 # Thesis Report
 
-You can find the full thesis report from [Bengali sentiment analysis based on product reviews: unveiling consumer voices](https://dspace.bracu.ac.bd/xmlui/handle/10361/25480)
+You can find the full thesis report from [Bengali sentiment analysis based on product reviews: unveiling consumer voices (https://dspace.bracu.ac.bd/xmlui/handle/10361/25480)
 
-# Acknowledgments
-- BRAC University CSE Department
+## Acknowledgments
 
-- Supervisor: Dewan Ziaul Karim (Lecturer, BRAC University)
+- BRAC University CSE Department  
+- Supervisor: Dewan Ziaul Karim (Lecturer, BRAC University)  
+- Research inspirations from [CSEBUET NLP](https://csebuetnlp.github.io/) and [Hugging Face](https://huggingface.co/)
 
-- Research inspirations from [CSEBUET NLP] (https://csebuetnlp.github.io/) and [Hugging Face] (https://huggingface.co/)
