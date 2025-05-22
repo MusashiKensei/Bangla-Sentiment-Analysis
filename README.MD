@@ -20,16 +20,14 @@ The system explores and compares the performance of:
 - Vectorization: **TF-IDF**
 
 ### Deep Learning Models
-- **BiLSTM + GloVe (300d)**
-- **BiLSTM + FastText (cc.bn.300.bin)**
-- **BiLSTM + Fine-tuned GloVe**
-- **BiLSTM + Fine-tuned FastText**
-
-### Transformer Models
-- **Multilingual BERT (bert-base-multilingual-cased)**
-- **Fine-tuned Multilingual BERT**
-- **BanglaBERT (csebuetnlp/banglabert)**s
-- **Fine-tuned BanglaBERT**
+- BiLSTM with pre-trained GloVe (300d)
+- BiLSTM with pre-trained FastText (cc.bn.300.bin)
+- Fine-tuned BiLSTM with domain-specific GloVe
+- Fine-tuned BiLSTM with domain-specific FastText
+- Multilingual BERT (bert-base-multilingual-cased)
+- Fine-tuned Multilingual BERT
+- BanglaBERT (csebuetnlp/banglabert)
+- Fine-tuned BanglaBERT
 
 ---
 
