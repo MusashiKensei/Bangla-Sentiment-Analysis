@@ -33,7 +33,7 @@ The system explores and compares the performance of:
 
 ## Dataset
 
-- Collected **34,800** Bengali product reviews via web scraping from [Daraz Bangladesh](https://www.daraz.com.bd/).
+- Collected **34,800** Bengali product reviews via web scraping from an e-commerce website named Daraz.
 - Each review includes:
   - `clean_sentence`: The cleaned Bengali review text
   - `Sentiment`: Labeled as `Positive`, `Neutral`, or `Negative` based on the rating
